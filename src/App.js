@@ -13,14 +13,24 @@ class App extends Component {
     return (
       <div
         style={{
-          width: 'calc(100%-5px)',
-          height: '100%',
           display: 'flex',
           justifyContent: 'center',
-          padding: '5px'
+          height: '100vh',
+          alignItems: 'center'
         }}
       >
-        <Turkey>
+        <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            background: 'tan',
+            zIndex: -10
+          }}
+        />
+        <Turkey top="5">
           <Head>
             <Eyes />
             <Beak />

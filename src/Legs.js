@@ -8,7 +8,7 @@ const Legs = styled.div`
   width: 15px;
   height: 100px;
   background: gold;
-  z-index: -5;
+  z-index: -1;
   animation: ${walk} 2s infinite;
   animation-delay: ${props => props.delay || '0'}s;
   &::after {
