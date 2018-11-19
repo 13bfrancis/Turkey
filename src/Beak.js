@@ -10,6 +10,7 @@ const Beak = styled.div`
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
   border-radius: 10%;
+  z-index: 5;
 `;
 
 export default Beak;

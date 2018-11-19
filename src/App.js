@@ -5,6 +5,8 @@ import Beak from './Beak';
 import Eyes from './Eyes';
 import Body from './Body';
 import Neck from './Neck';
+import Beard from './Beard';
+import Legs from './Legs';
 
 class App extends Component {
   render() {
@@ -15,8 +17,13 @@ class App extends Component {
             <Eyes />
             <Beak />
           </Head>
-          <Neck />
-          <Body />
+          <Neck>
+            <Beard />
+          </Neck>
+          <Body>
+            <Legs left="100" delay="1" />
+            <Legs left="200" delay="0" />
+          </Body>
         </Turkey>
       </>
     );

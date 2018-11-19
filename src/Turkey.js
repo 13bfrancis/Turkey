@@ -6,6 +6,7 @@ const Turkey = styled.div`
   left: ${props => props.left || '0'}px;
   width: 400px;
   height: 400px;
+  margin: 0;
 `;
 
 export default Turkey;
