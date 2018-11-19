@@ -15,8 +15,7 @@ class App extends Component {
         style={{
           display: 'flex',
           justifyContent: 'center',
-          height: '100vh',
-          alignItems: 'center'
+          height: '100vh'
         }}
       >
         <div
