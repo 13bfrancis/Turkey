@@ -11,7 +11,15 @@ import Legs from './Legs';
 class App extends Component {
   render() {
     return (
-      <>
+      <div
+        style={{
+          width: 'calc(100%-5px)',
+          height: '100%',
+          display: 'flex',
+          justifyContent: 'center',
+          padding: '5px'
+        }}
+      >
         <Turkey>
           <Head>
             <Eyes />
@@ -25,7 +33,7 @@ class App extends Component {
             <Legs left="200" delay="0" />
           </Body>
         </Turkey>
-      </>
+      </div>
     );
   }
 }
