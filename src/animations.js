@@ -2,13 +2,13 @@ import { keyframes } from 'styled-components';
 
 export const wiggle = keyframes`
   from {
-    left: inherit;
+    left: 0;
   }
   50% {
     left: 25px;
   }
   to {
-    left: inherit;
+    left: 0;
   }
 `;
 export const walk = keyframes`
